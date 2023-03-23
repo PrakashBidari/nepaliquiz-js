@@ -22,5 +22,5 @@ form.addEventListener("submit", (event) => {
 
     scrollTo(0,0);
     result.classList.remove("hide");
-    result.querySelector("p").textContent = `You scored ${score}/5!`
+    result.querySelector("p").textContent = `You scored ${score}/10!`
 });
